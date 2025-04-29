@@ -14,3 +14,49 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+li {
+  text-align: left;
+}
+
+#lineup {
+  width: 35%;
+}
+
+#main {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+}
+
+.player-card {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-bottom: 20px;
+}
+
+#player-wrapper {
+  text-align: center;
+  width: 35%;
+}
+
+#players > li:nth-child(even) {
+  background-color: lightgrey;
+}
+
+#projection {
+  border-top: 1px solid #000;
+}
+
+#sorting {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 20px;
+}
+
+
+.sorting {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
